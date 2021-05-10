@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background:rgb(47, 40, 146)
+    min-height: 100vh;
+    margin: 0;
+}
+
+.cnt {
+    max-width:40rem;
+    margin:2rem auto;
+}
+.form {
+    font-family:sans-serif;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    padding:2rem;
+    background: #fff;
+    border-radius: 5px;
+}
+.form-row {
+    overflow:hidden;
+}
+.form-label {
+    display: block;
+    font-size:0.8rem;
+    margin-bottom:0.2rem;
+}
+.form-message {
+    padding:1rem;
+    height:10rem;
+    width:100%;
+    border:1px solid #aaa;
+    margin-bottom: 0.5rem;
+    resize: vertical;
+    font-family:sans-serif;
+    border-radius: 3px;
+}
+.form-button {
+    padding:0.8rem 1.6rem;
+    background: rgb(0, 255, 255);
+    color:#fff;
+    border:0;
+    border-radius: 0.188rem;
+    transition:0.4s all;
+    cursor: pointer;
+    float: right;
+}
+.form-button:hover {
+    background: #89ffd8;
+}
+
+
+.list-cnt {
+    background: rgb(158, 136, 255);
+    font-family:"Times New Roman", Times, serif;
+    border-radius: 15px;
+    margin:15px;
+    box-shadow: 60px -7px rgb(0, 0, 0);
+    padding:5px 5px;
+}
+.list-header {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+}
+.list-search-form {
+    width:70%;
+}
+.list-search {
+    border:1px solid #aaa;
+    padding:0.7rem;
+    border-radius: 3px;
+    width: 100%;
+}
+.list-title {
+    margin-top:0;
+    margin-bottom:0;
+    font-size: large;
+    text-transform: uppercase;
+}
+
+
+.element {
+    border-top:1px dotted rgb(0, 0, 0);
+    padding-top:5px;
+    padding-bottom: 5px;
+    margin-top:5px;
+}
+.element-bar {
+    overflow:hidden;
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom:10px;
+}
+.element-date {
+    margin:0;
+}
+.element-date {
+    font-size:small;
+    font-weight: bold;
+}
+.element-delete {
+    border:0;
+    background: url(images/trash.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    text-indent: -999px;
+    overflow: hidden;
+}
+.element-text {
+    color:rgb(0, 0, 0);
+    font-size:large;
+    font-weight: bold;
+}
