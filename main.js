@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const todoList = document.querySelector('#todoList');
     const todoForm = document.querySelector('#todoForm');
-    const todoSearch = document.querySelector('#todoSearch');
     const todoTextarea = todoForm.querySelector('textarea');
 
     function addTask(text) {
@@ -13,7 +12,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
         //wrzucenie do elementu
         element.append(elementInner);
-
 
         //wstawienie tekstu
         element.querySelector(".element-text").innerText = text;
