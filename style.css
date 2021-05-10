@@ -50,7 +50,6 @@ body {
     background: #89ffd8;
 }
 
-
 .list-cnt {
     background: rgb(158, 136, 255);
     font-family:"Times New Roman", Times, serif;
@@ -64,22 +63,13 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-.list-search-form {
-    width:70%;
-}
-.list-search {
-    border:1px solid #aaa;
-    padding:0.7rem;
-    border-radius: 3px;
-    width: 100%;
-}
+
 .list-title {
     margin-top:0;
     margin-bottom:0;
     font-size: large;
     text-transform: uppercase;
 }
-
 
 .element {
     border-top:1px dotted rgb(0, 0, 0);
@@ -94,27 +84,37 @@ body {
     align-items: center;
     margin-bottom:10px;
 }
-.element-date {
-    margin:0;
-}
-.element-date {
-    font-size:small;
-    font-weight: bold;
-}
+
 .element-delete {
+   
+    padding:0.8rem 1.6rem;
+    background: rgb(12, 126, 126);
+    color:#fff;
     border:0;
-    background: url(images/trash.svg);
+    border-radius: 0.188rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 20px 20px;
     cursor: pointer;
-    width: 30px;
-    height: 30px;
-    text-indent: -999px;
-    overflow: hidden;
+    float: right;
+    transition:0.4s all;
+}
+.element-delete:hover{
+    background: #09835a;
 }
 .element-text {
     color:rgb(0, 0, 0);
     font-size:large;
     font-weight: bold;
+}
+
+.form-button {
+    padding:0.8rem 1.6rem;
+    background: rgb(0, 255, 255);
+    color:#fff;
+    border:0;
+    border-radius: 0.188rem;
+    transition:0.4s all;
+    cursor: pointer;
+    float: right;
 }
